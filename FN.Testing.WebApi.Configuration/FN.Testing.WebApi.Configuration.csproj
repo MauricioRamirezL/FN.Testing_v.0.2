@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.5.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FN.Testing.Application.Contract\FN.Testing.Application.Contract.csproj" />
+    <ProjectReference Include="..\FN.Testing.Application\FN.Testing.Application.csproj" />
+    <ProjectReference Include="..\FN.Testing.Business\FN.Testing.Business.csproj" />
+    <ProjectReference Include="..\FN.Testing.DataLayer\FN.Testing.DataLayer.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FN.Test.Functions\FN.Testing.Functions.csproj" />
+    <ProjectReference Include="..\FN.Testing.DataLayer.Contract\FN.Testing.DataLayer.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
