@@ -192,11 +192,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
+      "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
       "projectName": "FN.Testing.DataLayer",
-      "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
+      "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
       "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-      "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\obj\\",
+      "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -220,11 +220,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
-              "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj"
+            "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
+              "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj"
             },
-            "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
-              "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
+            "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
+              "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
             }
           }
         }
@@ -259,7 +259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

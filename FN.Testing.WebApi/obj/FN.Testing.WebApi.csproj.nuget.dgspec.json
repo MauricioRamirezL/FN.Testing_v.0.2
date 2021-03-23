@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj": {}
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj",
         "projectName": "FN.Testing.Functions",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -67,18 +67,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj",
         "projectName": "FN.Testing.Application.Contract",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -128,18 +128,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application\\FN.Testing.Application.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application\\FN.Testing.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application\\FN.Testing.Application.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application\\FN.Testing.Application.csproj",
         "projectName": "FN.Testing.Application",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application\\FN.Testing.Application.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application\\FN.Testing.Application.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -163,17 +163,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj"
               }
             }
           }
@@ -212,18 +212,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj",
         "projectName": "FN.Testing.Business.Contract",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -273,18 +273,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business\\FN.Testing.Business.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business\\FN.Testing.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business\\FN.Testing.Business.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business\\FN.Testing.Business.csproj",
         "projectName": "FN.Testing.Business",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business\\FN.Testing.Business.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business\\FN.Testing.Business.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -308,11 +308,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
               }
             }
           }
@@ -347,18 +347,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj",
         "projectName": "FN.Testing.Common",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -414,18 +414,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj",
         "projectName": "FN.Testing.DataLayer.Contract",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -475,18 +475,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
         "projectName": "FN.Testing.DataLayer",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -510,11 +510,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Test.Functions\\FN.Testing.Functions.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
               }
             }
           }
@@ -549,18 +549,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj",
         "projectName": "FN.Testing.Entities",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -610,18 +610,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj",
         "projectName": "FN.Testing.WebApi.Common",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Common\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -645,8 +645,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Common\\FN.Testing.Common.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj"
               }
             }
           }
@@ -681,18 +681,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj",
         "projectName": "FN.Testing.WebApi.Configuration",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Configuration\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -716,17 +716,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application\\FN.Testing.Application.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application\\FN.Testing.Application.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application\\FN.Testing.Application.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application\\FN.Testing.Application.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business\\FN.Testing.Business.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Business\\FN.Testing.Business.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business\\FN.Testing.Business.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business\\FN.Testing.Business.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer\\FN.Testing.DataLayer.csproj"
               }
             }
           }
@@ -765,18 +765,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj": {
+    "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj",
+        "projectUniqueName": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj",
         "projectName": "FN.Testing.WebApi",
-        "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj",
+        "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi\\FN.Testing.WebApi.csproj",
         "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi\\obj\\",
+        "outputPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -800,17 +800,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Application.Contract\\FN.Testing.Application.Contract.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.Entities\\FN.Testing.Entities.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Common\\FN.Testing.WebApi.Common.csproj"
               },
-              "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj": {
-                "projectPath": "D:\\MR\\GIT\\WebApiFN\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj"
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.WebApi.Configuration\\FN.Testing.WebApi.Configuration.csproj"
               }
             }
           }
@@ -870,7 +870,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
