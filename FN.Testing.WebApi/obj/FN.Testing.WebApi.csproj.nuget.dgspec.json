@@ -34,7 +34,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,6 +51,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -113,6 +125,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -188,6 +206,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -195,6 +217,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.2, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -258,6 +284,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -308,11 +340,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj"
+              },
               "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj": {
                 "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Business.Contract\\FN.Testing.Business.Contract.csproj"
               },
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj"
+              },
               "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
                 "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
+              },
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Entities\\FN.Testing.Entities.csproj"
               }
             }
           }
@@ -397,6 +438,26 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -460,6 +521,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -513,6 +588,9 @@
               "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj": {
                 "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Test.Functions\\FN.Testing.Functions.csproj"
               },
+              "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj": {
+                "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.Common\\FN.Testing.Common.csproj"
+              },
               "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj": {
                 "projectPath": "D:\\MR\\GIT\\FN.Testing_v.0.2\\FN.Testing.DataLayer.Contract\\FN.Testing.DataLayer.Contract.csproj"
               }
@@ -529,6 +607,50 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -741,6 +863,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.2, )"
@@ -825,6 +951,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -835,13 +977,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -849,7 +991,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.1.1, )"
             }
           },
           "imports": [

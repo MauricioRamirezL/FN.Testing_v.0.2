@@ -19,35 +19,28 @@ namespace FN.Testing.WebApi.Configuration
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddSingleton<IUploadService, UploadService>();
-            serviceCollection.AddSingleton<IValidator<UploadModel>, UploadModelValidator>();
-
+            serviceCollection.AddScoped<IUploadService, UploadService>();
+            serviceCollection.AddScoped<IValidator<UploadModel>, UploadModelValidator>();
             serviceCollection.AddAutoMapper((srv, cfg) =>
             {
                 cfg.AddProfile(typeof(ApplicationMappingProfile));
             },
             new Assembly[0], ServiceLifetime.Transient);
-
             return serviceCollection;
         }
-
         public static IServiceCollection AddBusinessServices(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddSingleton<IUploadDataService, UploadDataService>();
-
+            serviceCollection.AddScoped<IUploadDataService, UploadDataService>();
             serviceCollection.AddAutoMapper((srv, cfg) =>
             {
                 cfg.AddProfile(typeof(BusinessMappingProfile));
             },
             new Assembly[0], ServiceLifetime.Transient);
-
             return serviceCollection;
         }
-
         public static IServiceCollection AddDataLayer(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddSingleton<IRepository<Upload>, UploadRepository>();
-
+            serviceCollection.AddScoped<IUploadRepository, UploadRepository>();
             return serviceCollection;
         }
     }

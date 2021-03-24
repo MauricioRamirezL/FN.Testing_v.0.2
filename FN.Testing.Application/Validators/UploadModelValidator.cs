@@ -11,10 +11,7 @@ namespace FluentValidation.Application.Validators
         {
             if (uploadDataService == null)
                 throw new ArgumentNullException(nameof(uploadDataService));
-
-            //RuleFor(x => x.Id).NotNullConfigured();
-            //RuleFor(x => x.FileName).MinimumLengthConfigured(50);
-            //RuleFor(x => x.UploadDate).NotNullConfigured();
+            RuleFor(x => x.File).NotNullConfigured();
         }
     }
 }

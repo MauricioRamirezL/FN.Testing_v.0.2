@@ -9,8 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FN.Test.Functions\FN.Testing.Functions.csproj" />
     <ProjectReference Include="..\FN.Testing.Business.Contract\FN.Testing.Business.Contract.csproj" />
+    <ProjectReference Include="..\FN.Testing.Common\FN.Testing.Common.csproj" />
     <ProjectReference Include="..\FN.Testing.DataLayer.Contract\FN.Testing.DataLayer.Contract.csproj" />
+    <ProjectReference Include="..\FN.Testing.Entities\FN.Testing.Entities.csproj" />
   </ItemGroup>
 
 </Project>

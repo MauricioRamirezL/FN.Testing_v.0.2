@@ -6,7 +6,10 @@ namespace FN.Testing.Business.Contract.Abstractions
 {
     public interface IUploadDataService
     {
-        Task<UploadEntity> GetUpload(string id, CancellationToken cancellationToken);
-        Task<string> AddUpload(UploadEntity entity, CancellationToken cancellationToken);
+        Task<UploadedEntity> GetUpload(int id, CancellationToken cancellationToken);
+        Task<UploadedEntity> AddUpload(UploadEntity entity, CancellationToken cancellationToken);
+        Task DeleteUpload(int id, CancellationToken cancellationToken);
+        Task<byte[]> GetFile(string filePath, CancellationToken cancellationToken);
+        string GetContentType(string filePath);
     }
 }

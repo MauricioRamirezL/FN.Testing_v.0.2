@@ -2,6 +2,6 @@
 {
     public interface ITable
     {
-        string Id { get; set; }
+        int Id { get; set; }
     }
 }

@@ -6,7 +6,10 @@ namespace FN.Testing.Application.Contract.Services
 {
     public interface IUploadService
     {
-        Task<UploadModel> GetUpload(string id, CancellationToken cancellationToken);
-        Task<string> PostUpload(UploadModel uploadModel, CancellationToken cancellationToken);
+        Task<UploadedModel> GetUpload(int id, CancellationToken cancellationToken);
+        Task<UploadedModel> PostUpload(UploadModel uploadModel, CancellationToken cancellationToken);
+        Task DeleteUpload(int id, CancellationToken cancellationToken);
+        Task<byte[]> GetFile(string filePath, CancellationToken cancellationToken);
+        string GetContentType(string filePath);
     }
 }

@@ -14,6 +14,7 @@ namespace FN.Testing.Application.Mapping
         private void CreateProfile()
         {
             CreateMap<UploadEntity, UploadModel>().ReverseMap();
+            CreateMap<UploadedEntity, UploadedModel>().ReverseMap();
         }
     }
 }
