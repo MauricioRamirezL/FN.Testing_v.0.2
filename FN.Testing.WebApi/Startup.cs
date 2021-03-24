@@ -15,6 +15,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System;
 using Microsoft.AspNetCore.Server.IIS;
+using System.Linq;
 
 namespace FN.Testing.WebApi
 {
@@ -61,11 +62,12 @@ namespace FN.Testing.WebApi
                 ;
             services.AddMvc().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase);
             services.AddTransient<IClaimsTransformation, ClaimsTransformer>();
-            services.AddAuthentication(IISServerDefaults.AuthenticationScheme);
+            //services.AddAuthentication(IISServerDefaults.AuthenticationScheme);
             services
                 .AddSwaggerGen(c =>
                     {
                         c.SwaggerDoc("v1", new OpenApiInfo { Title = "FN.Testing.WebApi", Version = "v1" });
+                        c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
                     })
                 .AddApplicationServices()
                 .AddBusinessServices()
@@ -84,15 +86,15 @@ namespace FN.Testing.WebApi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiFN v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("./v1/swagger.json", "FN.Testing.WebApi v1"));
             }
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseCors("CorsPolicy");
-            app.UseAuthentication();
+            //app.UseAuthentication();
             //app.UseHttpsRedirection();
             app.UseRouting();
-            //app.UseAuthorization();
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
