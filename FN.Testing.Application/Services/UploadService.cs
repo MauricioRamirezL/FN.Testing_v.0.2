@@ -6,6 +6,7 @@ using FN.Testing.Business.Contract.Abstractions;
 using FN.Testing.Business.Contract.Entities;
 using FN.Testing.Common.Core;
 using Microsoft.AspNetCore.StaticFiles;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
@@ -35,6 +36,12 @@ namespace FN.Testing.Application.Services
         {
             return _mapper.Map<UploadedModel>(
                 await _uploadDataService.GetUpload(id, cancellationToken)
+            );
+        }
+        public async Task<IEnumerable<UploadedModel>> GetUploads(CancellationToken cancellationToken)
+        {
+            return _mapper.Map<IEnumerable<UploadedModel>>(
+                await _uploadDataService.GetUploads(cancellationToken)
             );
         }
         public async Task<UploadedModel> PostUpload(UploadModel uploadModel, CancellationToken cancellationToken)

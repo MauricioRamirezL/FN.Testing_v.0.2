@@ -30,6 +30,14 @@ namespace FN.Testing.WebApi.Controllers
             return await HandleRequestAsync(() => _uploadService.GetUpload(id, cancellationToken));
         }
         [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable<UploadedModel>), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(500)]
+        public async Task<IActionResult> GetUploads(CancellationToken cancellationToken)
+        {
+            return await HandleRequestAsync(() => _uploadService.GetUploads(cancellationToken));
+        }
+        [HttpGet]
         [Route("{id:int}/{fileName}")]
         [ProducesResponseType(typeof(UploadedModel), 200)]
         [ProducesResponseType(400)]

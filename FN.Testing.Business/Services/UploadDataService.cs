@@ -6,6 +6,7 @@ using FN.Testing.DataLayer.Contract.Tables;
 using FN.Testing.Functions;
 using Microsoft.AspNetCore.StaticFiles;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
@@ -32,6 +33,11 @@ namespace FN.Testing.Business.Services
         {
             var row = await _repository.GetUploadById(id, cancellationToken);
             return _mapper.Map<UploadedEntity>(row);
+        }
+        public async Task<IEnumerable<UploadedEntity>> GetUploads(CancellationToken cancellationToken)
+        {
+            var rows = await _repository.GetUploads();
+            return _mapper.Map<IEnumerable<UploadedEntity>>(rows);
         }
         public async Task DeleteUpload(int id, CancellationToken cancellationToken)
         {
