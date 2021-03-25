@@ -32,6 +32,22 @@ namespace FN.Testing.Functions
             }
             return contentType;
         }
+        public bool DeleteFile(string filePath)
+        {
+            try
+            {
+                filePath = GetFullUploadFile(filePath);
+                if (File.Exists(filePath))
+                {
+                    File.Delete(filePath);
+                }
+                return true;
+            }
+            catch
+            {
+                return false;
+            }            
+        }
         public string UploadFile(IFormFile file)
         {
             double widthPercent = Convert.ToDouble(StaticConfigs.GetConfig("WidthPercent")) / 100;

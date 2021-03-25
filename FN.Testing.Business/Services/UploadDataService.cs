@@ -41,7 +41,12 @@ namespace FN.Testing.Business.Services
         }
         public async Task DeleteUpload(int id, CancellationToken cancellationToken)
         {
-            await _repository.DeleteUpload(id, cancellationToken);
+            var file = await GetUpload(id, cancellationToken);
+            if (file != null)
+            {
+                if (new Uploader().DeleteFile(string.Concat(file.FileName, file.Extension)))
+                    await _repository.DeleteUpload(id, cancellationToken);
+            }            
         }
         public async Task<UploadedEntity> AddUpload(UploadEntity entity, CancellationToken cancellationToken)
         {
